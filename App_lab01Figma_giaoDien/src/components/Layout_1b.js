@@ -26,10 +26,12 @@ const Layout1b = ( {navigation} ) => {
                 <Image source={require('./../images/1b_icon_mail.png')} />
                 <Text> Email</Text>
             </Button> */}
-            <TouchableOpacity style={styles.ccEmail} activeOpacity={0.5} >
-                <Image source={require('./../images/1b_icon_mail.png')}  />
-                <TextInput placeholder='Email' style={styles.txtEmail} />
-            </TouchableOpacity>
+            <View style={styles.ccEmail} activeOpacity={0.5}   >
+                <TouchableOpacity onPress={() => {navigation.goBack()}}>
+                    <Image source={require('./../images/1b_icon_mail.png')}  />
+                </TouchableOpacity>
+                    <TextInput placeholder='Email' style={styles.txtEmail} />
+            </View>
 
             <TouchableOpacity style={styles.ccNext} activeOpacity={0.5}  
                 onPress={() => navigation.navigate('Layout_1c')} >

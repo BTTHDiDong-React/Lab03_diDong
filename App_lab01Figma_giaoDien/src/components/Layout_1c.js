@@ -3,7 +3,7 @@ import React from 'react';
 import { Button } from "@react-native-material/core";
 import styles from '../theme/style1c';
 
-const layout_1c = ( {navigation}) => {
+const layout_1c = ( { navigation }) => {
     return (
         <ImageBackground style={styles.backgroundC} >
             <View style={[styles.containerTop, styles.flex_1]}>
@@ -29,14 +29,14 @@ const layout_1c = ( {navigation}) => {
                 {/* <Button title="VERIFY CODE" style={{ alignSelf: "center",backgroundColor: '#ff0', width: 300, padding: 5, marginTop: 40 }}/> */}
                 <TouchableOpacity style={styles.btnClick} activeOpacity='0.5'
                     // onPress={()=> { navigation.goBack() }} >
-                    onPress={()=> { navigation.navigate('Home') }} >
-                    <Text style={styles.textClick}>VERIFY CODE</Text>
+                    onPress={()=> { navigation.push('Layout_1d') }} >
+                    <Text style={styles.textClick}>VERIFY CODE (1_D)</Text>
                 </TouchableOpacity>
 
                 <TouchableOpacity style={styles.btnClick} activeOpacity='0.5'
                     // onPress={()=> { navigation.goBack() }} >
-                    onPress={()=> { navigation.navigate('Home') }} >
-                    <Text style={styles.textClick}>VERIFY CODE</Text>
+                    onPress={()=> { navigation.goBack() }} >
+                    <Text style={styles.textClick}>go back</Text>
                 </TouchableOpacity>
             </View>
 
