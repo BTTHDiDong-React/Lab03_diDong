@@ -17,4 +17,4 @@ $ npm install --save react-native-vector-icons
 ![alt Anh bai 3_d](./Anh%20minh%20hoa/bai3_d.png)
 
 # Ảnh bài 3 e:
-<img src="./Anh%20minh%20hoa/bai3_e.png" alt="Ảnh bài 3 e" width="300px" width="100px" />
+<img src="./Anh%20minh%20hoa/bai3_e.png" alt="Ảnh bài 3 e" width="400px" width="100px" />
