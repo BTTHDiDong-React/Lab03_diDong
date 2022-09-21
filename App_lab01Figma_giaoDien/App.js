@@ -9,17 +9,19 @@ import Layout1a from './src/components/Layout_1a';
 import Layout1b from './src/components/Layout_1b';
 import Layout1c from './src/components/Layout_1c';
 import Layout1d from './src/components/Layout_1d';
+import Layout1e from './src/components/Layout_1e';
 
 const Stack = createNativeStackNavigator();
 
 export default function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="Home" screenOptions={{headerShown: false}}>
+      <Stack.Navigator initialRouteName="Layout_1e" screenOptions={{headerShown: false}}>
         <Stack.Screen name="Home" component={Layout1a} />
         <Stack.Screen name="Layout_1b" component={Layout1b} />
         <Stack.Screen name="Layout_1c" component={Layout1c} />
         <Stack.Screen name="Layout_1d" component={Layout1d} />
+        <Stack.Screen name="Layout_1e" component={Layout1e} />
       </Stack.Navigator>
     </NavigationContainer>
 

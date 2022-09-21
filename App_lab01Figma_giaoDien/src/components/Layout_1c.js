@@ -3,7 +3,7 @@ import React from 'react';
 import { Button } from "@react-native-material/core";
 import styles from '../theme/style1c';
 
-const layout_1c = ( { navigation }) => {
+const Layout_1c = ( { navigation }) => {
     return (
         <ImageBackground style={styles.backgroundC} >
             <View style={[styles.containerTop, styles.flex_1]}>
@@ -46,4 +46,4 @@ const layout_1c = ( { navigation }) => {
 
 
 
-export default layout_1c;
+export default Layout_1c;

@@ -12,3 +12,5 @@ ack
 # npm install @react-navigation/native-st
 
 # npm install --save react-native-vector-icons
+
+# npm i react-native-simple-radio-button --save

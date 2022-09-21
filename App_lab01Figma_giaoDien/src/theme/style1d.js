@@ -75,6 +75,13 @@ const style = StyleSheet.create({
         fontSize: 16,
         color: "#000",
     },
+    InputPass: {
+        paddingVertical: 10,
+        paddingLeft: 15,
+        
+        fontSize: 16,
+        color: "#000",
+    },
     btnLogin: {
         width: '85%',
         backgroundColor: '#d93f26',

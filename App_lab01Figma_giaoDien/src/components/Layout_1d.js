@@ -24,7 +24,7 @@ const Layout_1d = ( { navigation } ) => {
             </View>
             <View style={[styles.txtPass, styles.view_row]}  >
                 <TextInput 
-                    style={[styles.flex_1, styles.Input ]} 
+                    style={[styles.flex_1, styles.InputPass ]} 
                     secureTextEntry={passVisible?false:true}
                     placeholder={'Password'} />
                 <TouchableOpacity style={[styles.view_center, {width: '20%'}]}
@@ -53,7 +53,9 @@ const Layout_1d = ( { navigation } ) => {
                     <Text style={{color: '#0d99ff', marginTop: 20}} > -  Go to Back</Text>
                 </TouchableOpacity>
             </View> 
-            <Text style={{color: '#0d99ff', marginTop: 20 }} >Or register with</Text>
+            <TouchableOpacity onPress={()=> {navigation.push('Layout_1e')}}>
+                <Text style={{color: '#0d99ff', marginTop: 20 }} >Or register with</Text>
+            </TouchableOpacity>
         </View>
         <View style={[styles.contentFooter, styles.flex_2, styles.view_centerTop]}>
             <View style={[{width: '85%', height: 45 }, styles.view_row]} >
